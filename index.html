@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animal Gallery</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <h1 class="header__title">Animal Gallery</h1>
+      </header>
+      <main class="content">
+        <form id="form-animal" class="form">
+          <legend class="form__title">Agregar Animal</legend>
+          <label for="name" class="form__label">Nombre</label>
+          <input
+            class="form__input"
+            id="name"
+            type="text"
+            minlength="5"
+            maxlength="40"
+            required
+            placeholder="Agrega el nombre del animal"
+          />
+          <span class="form__span"></span>
+          <label for="species" class="form__label">Especie</label>
+          <input
+            class="form__input"
+            id="species"
+            type="text"
+            minlength="5"
+            maxlength="30"
+            required
+            placeholder="Agrega el nombre de la especie"
+          />
+          <span class="form__span"></span>
+          <label for="image" class="form__label">Imagen</label>
+          <input
+            class="form__input"
+            id="image"
+            type="url"
+            required
+            placeholder="Agrega la imagen del animal"
+          />
+          <span class="form__span"></span>
+          <button class="form__button" type="submit">Agregar Animal</button>
+        </form>
+        <section class="gallery">
+          <div class="gallery__card">
+            <img
+              class="gallery__card-image"
+              src="https://lh3.googleusercontent.com/proxy/zKDT8ZFUcfrCGumFBYearN1Fz-Vxk5gGSPz_1YVWI5ZH-7hX6cMnr6Nerl0ZAmkyh8B-YsfNwO42UwS23PgaSHrg9RNbakY3Er2ClEMIYgo76JUzIfLPWwxWGjpkGlEzic7G_SOIkIvMUy_t"
+              alt="Lobo Gris"
+            />
+            <h3 class="gallery__card-title">Lobo</h3>
+            <p class="gallery__card-paragraph">Mamifero</p>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__title">Osvaldo Ochoa 2025</p>
+      </footer>
+    </div>
+  </body>
+</html>
