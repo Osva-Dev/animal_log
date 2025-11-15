@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #545454;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.header__title {
+  font-size: 45px;
+}
