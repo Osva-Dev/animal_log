@@ -1,0 +1,14 @@
+body {
+  background-color: cornsilk;
+}
+
+.page {
+  max-width: 1224px;
+  margin: auto;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: 0.8;
+  background-color: cornsilk;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
